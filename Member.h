@@ -1,5 +1,7 @@
 class Member
 {
+    Member();
+    ~Member();
     void follow (const Member &other);
     int count();
     void unfollow(const Member &other);
