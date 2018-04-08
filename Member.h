@@ -1,3 +1,5 @@
+#ifndef AA_hpp
+#define AA_hpp
 class Member
 {
     Member(){};
@@ -30,3 +32,4 @@ int Member::numFollowers() {
 int Member::numFollowing() {
     return 0;
 }
+#endif
