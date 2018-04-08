@@ -3,6 +3,7 @@
 #define AA_hpp
 class Member
 {
+    public:
     Member(){};
     void follow (const Member &other){}
     int count(){return 0;}
