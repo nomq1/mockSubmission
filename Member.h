@@ -1,6 +1,6 @@
 class Member
 {
-    Member();
+    Member() noexcept;
     ~Member();
     void follow (const Member &other);
     int count();
