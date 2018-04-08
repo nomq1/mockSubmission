@@ -1,6 +1,6 @@
 class Member
 {
-    Member();
+    Member(){};
     void follow (const Member &other);
     int count();
     void unfollow(const Member &other);
@@ -17,9 +17,6 @@ int Member::count() {
     return 0;
 }
 
-Member::Member()
-{
-}
 
 
 void Member::unfollow(const Member &other) {
