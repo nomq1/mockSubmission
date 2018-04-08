@@ -13,10 +13,10 @@ int Member::count() {
     return 0;
 }
 
-Member::Member() {
+Member::Member() noexcept{
 }
 
-Member::~Member() {
+Member::~Member() noexcept{
 }
 
 void Member::unfollow(const Member &other) {
