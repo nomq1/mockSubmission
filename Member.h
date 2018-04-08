@@ -7,3 +7,29 @@ class Member
     int numFollowers();
     int numFollowing();
 };
+#include <vector>
+void Member::follow(const Member &other)
+{
+
+}
+
+int Member::count() {
+    return 0;
+}
+
+Member::Member()
+{
+}
+
+
+void Member::unfollow(const Member &other) {
+
+}
+
+int Member::numFollowers() {
+    return 0;
+}
+
+int Member::numFollowing() {
+    return 0;
+}
