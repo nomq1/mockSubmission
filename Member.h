@@ -5,4 +5,4 @@ class Member
     void unfollow(const Member &other);
     int numFollowers();
     int numFollowing();
-}
+};
