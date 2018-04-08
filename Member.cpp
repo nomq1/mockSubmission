@@ -13,7 +13,8 @@ int Member::count() {
     return 0;
 }
 
-Member::Member() noexcept{
+Member::Member()
+{
 }
 
 
