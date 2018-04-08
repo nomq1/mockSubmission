@@ -16,8 +16,6 @@ int Member::count() {
 Member::Member() noexcept{
 }
 
-Member::~Member(){
-}
 
 void Member::unfollow(const Member &other) {
 
